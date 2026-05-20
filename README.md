@@ -1,122 +1,72 @@
-# 🔥 CareerForge
+<!-- CareerForge - AI Powered Career Platform -->
+<!-- CareerForge - AI Powered Career Platform23 -->
+# Getting Started with Create React App
 
-<div align="center">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![CareerForge Banner](https://img.shields.io/badge/CareerForge-AI%20Powered%20Career%20Platform-6366f1?style=for-the-badge&logo=rocket&logoColor=white)
+## Available Scripts
 
-**Your AI-powered career co-pilot — from resume to internship, all in one place.**
+In the project directory, you can run:
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev)
-[![Firebase](https://img.shields.io/badge/Firebase-12-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com)
-[![Groq AI](https://img.shields.io/badge/Groq-LLaMA%203.3-F55036?style=flat-square&logo=ai)](https://groq.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+### `npm start`
 
-[Live Demo](#) • [Features](#-features) • [Setup](#-getting-started) • [Screenshots](#-screenshots)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-</div>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## 🚀 What is CareerForge?
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-CareerForge is an AI-powered career guidance platform built for students and freshers. It helps you:
+### `npm run build`
 
-- 🎤 **Build your resume** by answering voice-based interview questions
-- 📊 **Analyze your skill gaps** based on your target role
-- 🗺️ **Get a personalized learning roadmap** to fill those gaps
-- 💼 **Discover internship opportunities** that match your profile
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-No more guessing what skills you need. CareerForge tells you exactly what to learn and where.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## ✨ Features
+### `npm run eject`
 
-| Feature | Description |
-|--------|-------------|
-| 🎤 Voice Resume Builder | Speak your answers, AI generates a professional resume |
-| 📊 Skill Gap Analysis | Compare your skills vs what top companies want |
-| 🗺️ Learning Roadmap | Curated free resources for every missing skill |
-| 💼 Internship Matcher | Find real internships matching your target role |
-| 🔐 Firebase Auth | Secure login and user data management |
-| 📄 PDF Export | Download your resume as a polished PDF |
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 🛠️ Tech Stack
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **Frontend:** React 19, React Router v7
-- **AI Engine:** Groq API (LLaMA 3.3 70B)
-- **Auth & DB:** Firebase v12
-- **PDF:** jsPDF + html2canvas
-- **Styling:** Pure CSS (no UI library — fully custom)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## 📦 Getting Started
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Prerequisites
-- Node.js v18+
-- A [Groq API Key](https://console.groq.com)
-- A [Firebase Project](https://console.firebase.google.com)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Installation
+### Code Splitting
 
-```bash
-git clone https://github.com/roopakm232007/CareerForge.git
-cd CareerForge
-npm install
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Environment Variables
+### Analyzing the Bundle Size
 
-Create a `.env` file in the root:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```env
-REACT_APP_GROQ_KEY=your_groq_api_key_here
-```
+### Making a Progressive Web App
 
-### Run Locally
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```bash
-npm start
-```
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 📁 Project Structure
-CareerForge/
-├── src/
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Interview.jsx
-│   │   ├── Resume.jsx
-│   │   ├── SkillGap.jsx
-│   │   └── JobMatcher.jsx
-│   └── firebase.js
-├── .env
-└── package.json
----
+### Deployment
 
-## 🔮 Roadmap
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- [ ] LinkedIn profile import
-- [ ] Mock interview with AI feedback
-- [ ] Resume scoring system
-- [ ] Email alerts for new internships
+### `npm run build` fails to minify
 
----
-
-## 👨‍💻 Author
-
-**Roopak M** — [@roopakm232007](https://github.com/roopakm232007)
-
----
-
-<div align="center">
-
-Made with ❤️ for students who deserve better career tools.
-
-⭐ Star this repo if you found it helpful!
-
-</div>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
